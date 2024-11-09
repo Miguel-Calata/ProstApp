@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">ProstAPP</string>
+    <string name="inicio">Inicio</string>
+    <string name="referencias">Referencias</string>
+    <string name="profesionales_cerca_de_ti">Profesionales cerca de ti</string>
+    <string name="calculadora_de_riesgos">Calculadora de riesgos</string>
+    <string name="prevenci_n">Prevención</string>
+    <string name="estad_sticas">Estadísticas</string>
+    <string name="informaci_n">Información</string>
+
+
+    <string name="txt_estadistica"></string>
+    <string name="que_es">El cáncer de próstata se origina cuando las células de la próstata comienzan a crecer fuera de control. La próstata es una glándula que sólo tienen los hombres. Esta glándula produce parte del líquido que conforma el semen.
+        \n\nLa próstata está debajo de la vejiga (el órgano hueco donde se almacena la orina) y delante del recto (la última parte de los intestinos). Justo detrás de la próstata se encuentran las glándulas llamadas vesículas seminales, las cuales producen la mayor parte del líquido del semen. La uretra, que es el conducto que transporta la orina y el semen fuera del cuerpo a través del pene, pasa por el centro de la próstata.
+        \n\nEl tamaño de la próstata puede cambiar a medida que el hombre envejece. En los hombres más jóvenes, la próstata es del tamaño aproximado de una nuez. Sin embargo, puede ser mucho más grande en hombres de más edad.</string>
+
+    <string name="des_prostata">Imagen ilustrativa de una prostata dentro del cuerpo humano</string>
+
+    <string name="tipos_prostata">
+        <![CDATA[
+        Casi todos los cánceres de próstata son adenocarcinomas. Estos cánceres se desarrollan a partir de las células glandulares (las células que producen el líquido prostático que se agrega al semen).<br/><br/>
+        Otros tipos de cáncer que se pueden originar en la próstata son:<br/><br/>
+        <ul>
+            <li>Carcinomas de células pequeñas</li>
+            <li>Tumores neuroendocrinos (aparte de los carcinomas de células pequeñas)</li>
+            <li>Carcinomas de células transicionales</li>
+            <li>Sarcomas</li>
+        </ul><br/>
+        Estos otros tipos de cáncer de próstata son poco comunes. Si a usted le dicen que tiene cáncer de próstata es casi seguro que sea un adenocarcinoma.<br/><br/>
+        Algunos cánceres de próstata crecen y se propagan rápidamente, pero la mayoría crece lentamente. De hecho, los estudios realizados en algunas autopsias muestran que muchos hombres de edad avanzada (e incluso algunos hombres más jóvenes) que murieron por otras causas también tenían cáncer de próstata que nunca les afectó durante sus vidas. En muchos casos, ellos no sabían, y ni siquiera sus médicos, que tenían cáncer de próstata.
+        ]]>
+    </string>
+
+
+
+    <string name="estadisticas_cancer_prostata">
+    <![CDATA[
+    <p>El cáncer de próstata representa uno de los principales problemas de salud pública en México, con estadísticas alarmantes que reflejan la magnitud de esta enfermedad en el país. A continuación se detallan las estadísticas más relevantes sobre el cáncer de próstata, basadas en datos recientes y estudios realizados por especialistas en el área.</p>
+
+    <h3>Casos y Mortalidad</h3>
+    <p>Cada año en México se diagnostican más de 25,000 casos nuevos de cáncer de próstata, lo que lo convierte en uno de los cánceres más comunes entre los hombres en el país. Además, más de 7,500 muertes son atribuibles a esta enfermedad cada año. Esta alta tasa de mortalidad resalta la importancia de la detección temprana y la atención médica oportuna.</p>
+
+    <h3>Diagnóstico Tardío</h3>
+    <p>Un dato preocupante es que siete de cada diez pacientes acuden a atención médica cuando la enfermedad ya se encuentra en etapas avanzadas, lo que reduce considerablemente las posibilidades de cura y mejora en la calidad de vida de los pacientes. El diagnóstico en etapas tardías también implica un mayor impacto en la economía de las familias y el bienestar de los cuidadores.</p>
+
+    <h3>Factores de Riesgo</h3>
+    <p>El cáncer de próstata afecta principalmente a hombres mayores de 65 años, especialmente aquellos con antecedentes familiares de la enfermedad. Se estima que el riesgo de padecer cáncer de próstata aumenta ocho veces cuando existen antecedentes de la enfermedad en familiares de primer grado. Además, factores como el síndrome metabólico, hipertensión arterial, obesidad y el sedentarismo también aumentan el riesgo de desarrollar este tipo de cáncer.</p>
+
+    <h3>Detección y Prevención</h3>
+    <p>Uno de cada seis hombres en México está en riesgo de desarrollar cáncer de próstata. Por ello, los especialistas recomiendan que los hombres mayores de 40 años se sometan a exámenes médicos regulares, particularmente aquellos con antecedentes familiares de la enfermedad. A través de programas como el Opus del Instituto Nacional de Cancerología (INCan), se busca reforzar la prevención, el diagnóstico temprano y el acceso a atención integral para hombres sin seguridad social.</p>
+
+    <h3>Encuestas sobre la Detección</h3>
+    <p>Una encuesta realizada a 453 hombres reveló las principales razones por las cuales muchos no se someten a pruebas de detección del cáncer de próstata. Los resultados indican que el 70% de los encuestados temen recibir un diagnóstico positivo, mientras que el 50% desconoce los síntomas de la enfermedad. Además, un 60% cree que la detección afecta su masculinidad y más de 22% opta por tratamientos alternativos, ya que creen que el cáncer de próstata se puede curar sin intervención médica convencional.</p>
+
+    <h3>Resultados de Biopsias</h3>
+    <p>De las 575 biopsias de próstata realizadas, 307 resultaron positivas a cáncer, lo que subraya la importancia de la detección precoz para aumentar las probabilidades de un tratamiento exitoso.</p>
+
+    <h3>Tratamiento y Atención Integral</h3>
+    <p>Los pacientes diagnosticados en el INCan reciben un tratamiento multidisciplinario que incluye atención médica especializada, nutricional, psicológica, radioterapia, cirugía, control del dolor, cuidados para la salud ósea, rehabilitación y apoyo para síntomas urinarios y sexuales. Este enfoque integral mejora la calidad de vida de los pacientes y les permite enfrentar la enfermedad de una manera más efectiva.</p>
+    ]]>
+    </string>
+
+    <string name="prevencion_cancer_prostata">
+    <![CDATA[
+
+    <p>La prevención del cáncer de próstata se basa principalmente en conocer los factores de riesgo y tomar medidas para reducir la probabilidad de desarrollar esta enfermedad. Aunque no se puede evitar por completo, es posible disminuir el riesgo a través de ciertos hábitos y un mayor conocimiento sobre las condiciones que aumentan la probabilidad de padecerla. A continuación, se detallan los principales factores de riesgo y recomendaciones para prevenir el cáncer de próstata.</p>
+
+    <h3>1. Edad y Cambios Relacionados</h3>
+    <p>El factor de riesgo más común para el cáncer de próstata es la edad. A medida que los hombres envejecen, las probabilidades de desarrollar esta enfermedad aumentan considerablemente. A partir de los 50 años, el riesgo comienza a elevarse, y a los 65 años en adelante, la probabilidad de diagnóstico es mucho mayor. Aunque no se puede modificar el paso del tiempo, el conocimiento de este riesgo hace que sea esencial comenzar las revisiones médicas regulares a partir de esta edad, con el fin de detectar cualquier signo temprano del cáncer de próstata.</p>
+
+    <h3>2. Raza: Mayor Riesgo en Hombres Afroamericanos</h3>
+    <p>Los hombres afroamericanos tienen un riesgo significativamente mayor de desarrollar cáncer de próstata en comparación con otros grupos raciales o étnicos. Esta población no solo tiene más probabilidades de ser diagnosticada con la enfermedad, sino que también presenta una tasa de mortalidad más alta, siendo más del doble de probable que mueran a causa de este cáncer que los hombres de otras razas. Además, los hombres afroamericanos tienden a ser diagnosticados a una edad más temprana y, en muchos casos, cuando la enfermedad ya se encuentra en una etapa más avanzada.</p>
+    <p>Para los hombres afroamericanos, la clave para una prevención efectiva es mantenerse vigilantes con las revisiones médicas, comenzando incluso antes de los 50 años si existen antecedentes familiares u otros factores de riesgo.</p>
+
+    <h3>3. Antecedentes Familiares y Factores Genéticos</h3>
+    <p>Los antecedentes familiares juegan un papel crucial en el riesgo de desarrollar cáncer de próstata. Los hombres con un pariente cercano (padre, hermano o hijo) que haya tenido cáncer de próstata tienen un riesgo significativamente más alto de presentar esta enfermedad. Este riesgo aumenta aún más si el diagnóstico ocurrió antes de los 55 años.</p>
+    <p>Además, los estudios han mostrado que los hombres cuyo cáncer de próstata está relacionado con factores genéticos heredados tienen una mayor probabilidad de desarrollar un tipo de cáncer más agresivo. Por ejemplo, si un hombre tiene familiares que han sido diagnosticados con cáncer de mama, ovario o páncreas, también puede tener un mayor riesgo de desarrollar cáncer de próstata debido a los posibles vínculos genéticos.</p>
+    <p>Es esencial que los hombres con antecedentes familiares de cáncer hablen con su médico sobre sus riesgos específicos y consideren comenzar las pruebas de detección más temprano que la edad recomendada para la población general.</p>
+
+    <h3>4. Estilo de Vida y Prevención</h3>
+    <p>Aunque no siempre se puede controlar los factores genéticos o la edad, los hábitos de vida saludable pueden reducir significativamente el riesgo de desarrollar cáncer de próstata. Mantener un peso saludable, hacer ejercicio regularmente y seguir una dieta equilibrada, rica en frutas, verduras y baja en grasas saturadas, puede contribuir a la prevención. Evitar el sedentarismo y controlar enfermedades como la hipertensión y la obesidad también son medidas preventivas importantes.</p>
+
+    <h3>5. Detección Temprana</h3>
+    <p>La detección temprana es fundamental para prevenir la progresión del cáncer de próstata a etapas más graves. Los hombres deben hablar con su médico sobre las opciones de exámenes, como el antígeno prostático específico (APE), especialmente si tienen factores de riesgo elevados. La detección temprana permite comenzar el tratamiento en fases iniciales, lo que aumenta las probabilidades de éxito.</p>
+    ]]>
+    </string>
+
+
+    <string name="referencias_cancer_prostata">
+    <![CDATA[
+    <p>Gobierno de México. (n.d.). En México cada año se detectan más de 25 mil casos de cáncer de próstata. Secretaría de Salud. Recuperado de <a href="https://www.gob.mx/salud/prensa/278-en-mexico-cada-ano-se-detectan-mas-de-25-mil-casos-de-cancer-de-prostata">https://www.gob.mx/salud/prensa/278-en-mexico-cada-ano-se-detectan-mas-de-25-mil-casos-de-cancer-de-prostata</a></p>
+
+    <p>Centers for Disease Control and Prevention. (n.d.). Factores de riesgo del cáncer de próstata. Recuperado de <a href="https://www.cdc.gov/prostate-cancer/es/risk-factors/index.html">https://www.cdc.gov/prostate-cancer/es/risk-factors/index.html</a></p>
+
+    <p>American Cancer Society. (n.d.). ¿Qué es el cáncer de próstata? Recuperado de <a href="https://www.cancer.org/es/cancer/tipos/cancer-de-prostata/acerca/que-es-cancer-de-prostata.html">https://www.cancer.org/es/cancer/tipos/cancer-de-prostata/acerca/que-es-cancer-de-prostata.html</a></p>
+
+    <p>RiskCalc. (n.d.). Prostate Cancer Prevention Trial Risk Calculator. Recuperado de <a href="https://www.riskcalc.org/PCPTRC/">https://www.riskcalc.org/PCPTRC/</a></p>
+
+    <p>Doctoralia. (n.d.). Encuentra especialista - Pide cita médica. Recuperado de <a href="https://www.doctoralia.com.mx/">https://www.doctoralia.com.mx/</a></p>
+    ]]>
+</string>
+
+
+
+
+
+
+
+
+
+</resources>
