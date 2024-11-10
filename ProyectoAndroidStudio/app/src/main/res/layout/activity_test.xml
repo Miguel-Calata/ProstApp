@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Test">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/botones"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/botones"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextAppearance="@style/ToolbarTitleText" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Campo de entrada para Edad -->
+    <TextView
+        android:id="@+id/textViewEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad:"
+        app:layout_constraintTop_toBottomOf="@id/appBarLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <EditText
+        android:id="@+id/editTextEdad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu edad"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/textViewEdad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="16dp" />
+
+    <!-- CheckBox para conocer el nivel de PSA -->
+    <CheckBox
+        android:id="@+id/checkBoxConocePSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Conoces tu nivel de antígeno prostático específico?"
+        app:layout_constraintTop_toBottomOf="@id/editTextEdad"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Campo de entrada para PSA (por defecto invisible) -->
+    <TextView
+        android:id="@+id/textViewPSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Antígeno prostático específico (ng/ml):"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxConocePSA"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextPSA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu nivel de PSA"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/textViewPSA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="16dp"
+        android:visibility="gone" />
+
+    <!-- Campo de selección para Raza -->
+    <TextView
+        android:id="@+id/textViewRaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raza:"
+        app:layout_constraintTop_toBottomOf="@id/editTextPSA"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerRaza"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textViewRaza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="16dp"
+        android:entries="@array/razas" />
+
+    <!-- Checkbox para Historial Familiar -->
+    <CheckBox
+        android:id="@+id/checkBoxHistorialFamiliar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historial familiar de cáncer de próstata"
+        app:layout_constraintTop_toBottomOf="@id/spinnerRaza"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Campo de entrada para Índice de Masa Corporal (IMC) -->
+    <TextView
+        android:id="@+id/textViewIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Índice de Masa Corporal (IMC):"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxHistorialFamiliar"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <EditText
+        android:id="@+id/editTextIMC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu IMC"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/textViewIMC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="16dp" />
+
+    <!-- Checkbox para Tabaquismo -->
+    <CheckBox
+        android:id="@+id/checkBoxTabaquismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Eres fumador?"
+        app:layout_constraintTop_toBottomOf="@id/editTextIMC"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Botón para Calcular el Riesgo -->
+    <Button
+        android:id="@+id/buttonCalcularRiesgo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Calcular Riesgo"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxTabaquismo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Campo de salida para mostrar el resultado -->
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:fontFamily="@font/intervariable"
+        android:paddingTop="16dp"
+        android:text="Resultado:"
+        android:textAlignment="center"
+        android:textColor="#C2185B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonCalcularRiesgo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/spacegrotesk_wght"
+            android:text="@string/inicio"
+            android:textSize="35sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btninfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#58B0C6"
+                    android:fontFamily="@font/spacegrotesk_wght"
+                    android:foregroundGravity="clip_horizontal|right"
+                    android:gravity="start|top"
+                    android:minHeight="120dp"
+                    android:text="@string/informaci_n"
+                    android:textAlignment="viewStart"
+                    android:textSize="23sp"
+                    app:cornerRadius="22dp"
+                    app:icon="@mipmap/ic_prostapp_informacion"
+                    app:iconGravity="end"
+                    app:iconSize="100dp"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+                <Button
+                    android:id="@+id/btnest"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#58B0C6"
+                    android:fontFamily="@font/spacegrotesk_wght"
+                    android:gravity="start|top"
+                    android:minHeight="120dp"
+                    android:text="@string/estad_sticas"
+                    android:textAlignment="viewStart"
+                    android:textSize="23sp"
+                    app:cornerRadius="22dp"
+                    app:icon="@mipmap/ic_estadisticas_foreground"
+                    app:iconGravity="end"
+                    app:iconSize="100dp"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+
+                <Button
+                    android:id="@+id/btnprev"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#58B0C6"
+                    android:fontFamily="@font/spacegrotesk_wght"
+                    android:gravity="start|top"
+                    android:minHeight="120dp"
+                    android:text="@string/prevenci_n"
+                    android:textAlignment="viewStart"
+                    android:textSize="23sp"
+                    app:cornerRadius="22dp"
+                    app:icon="@mipmap/ic_prevencion_foreground"
+                    app:iconGravity="end"
+                    app:iconSize="100dp"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+
+                <Button
+                    android:id="@+id/btntest"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#58B0C6"
+                    android:fontFamily="@font/spacegrotesk_wght"
+                    android:gravity="start|top"
+                    android:minHeight="120dp"
+                    android:text="@string/calculadora_de_riesgos"
+                    android:textAlignment="viewStart"
+                    android:textSize="23sp"
+                    app:cornerRadius="22dp"
+                    app:icon="@mipmap/ic_calculadora_foreground"
+                    app:iconGravity="end"
+                    app:iconSize="100dp"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+
+                <Button
+                    android:id="@+id/btnprof"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#58B0C6"
+                    android:fontFamily="@font/spacegrotesk_wght"
+                    android:gravity="start|top"
+                    android:minHeight="120dp"
+                    android:text="@string/profesionales_cerca_de_ti"
+                    android:textAlignment="viewStart"
+                    android:textSize="23sp"
+                    app:cornerRadius="22dp"
+                    app:icon="@mipmap/ic_profesionales_foreground"
+                    app:iconGravity="end"
+                    app:iconSize="100dp"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+                <Button
+                    android:id="@+id/btnfuentes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#58B0C6"
+                    android:fontFamily="@font/spacegrotesk_wght"
+                    android:gravity="start|top"
+                    android:minHeight="120dp"
+                    android:text="@string/referencias"
+                    android:textAlignment="viewStart"
+                    android:textSize="23sp"
+                    app:cornerRadius="22dp"
+                    app:icon="@mipmap/ic_fuentes_foreground"
+                    app:iconGravity="end"
+                    app:iconSize="100dp"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
